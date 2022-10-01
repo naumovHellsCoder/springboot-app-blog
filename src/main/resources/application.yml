@@ -5,9 +5,10 @@ spring:
     hibernate:
       ddl-auto: create-drop
   datasource:
-    url: jdbc:postgresql://localhost:5432/application
+    url: jdbc:postgresql://localhost:5432/post_blog
     username: postgres
     password: postgres
     driverClassName: org.postgresql.Driver
- application:
-   name: naumov
+  sql:
+    init:
+      platform: postgres
