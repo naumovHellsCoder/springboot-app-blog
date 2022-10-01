@@ -1,4 +1,4 @@
-package com.demo.naumov.configuration.jwt;
+package com.demo.naumov.jwt;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
